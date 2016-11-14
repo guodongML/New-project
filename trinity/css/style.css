@@ -1,0 +1,119 @@
+html{
+	font-size: 20px;
+	height: 100%;
+}
+body{
+	background-color: #f0f0f0;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+
+}
+.logo{
+	position: relative;
+	width: 100%;
+	height: 43px;
+	background-color: #ddd;
+	padding-top: 16px;
+}
+.logo_a{
+	height: 42px;
+	border-top: solid 1px #fff;
+}
+.logo_a img{
+	margin-top: 10px;
+	margin-left: 5.6%;
+}
+.logo_a img:hover{
+
+}
+.logo_a span{
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	margin-left: -6%;
+	font-size: .9rem;
+	line-height: 42px;
+	color: #1f4e81;
+}
+.bottom{
+	width: 100%;
+	height: 50px;
+	background-color: #ddd;
+	position: fixed;
+	bottom: 0;
+}
+.bottom span{
+	margin-top: 5px;
+	display: inline-block;
+	width: 33.33%;
+	height: 21px;
+	text-align: center;
+	color:#999;
+	font-size: 0.35rem;
+}
+.main{
+	width: 100%;
+	background-color: #f0f0f0;
+}
+.myscourses{
+	margin-bottom: 10px;
+	height: 56px;
+	background-color: #fff;
+}
+.myscourses >img{
+	margin-left: 5.2%;
+	padding-bottom: 5px;
+}
+.myscourses> span{
+	margin-top: 5px;
+	display: inline-block;
+	height: 56px;
+	margin-left: 6%;
+	font-size: .4rem;
+	color: #4d4d4d;
+	
+}
+.cbl{
+
+	width: 61%;
+	position: fixed;
+	left: -61%;
+	top: 0;
+	bottom: 0;
+	background-color: #333;
+	transition:all 500ms;
+}
+.cbl.arr{
+	left: 0;
+	
+}
+.bob{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	transition:all 500ms;
+
+}
+.bob.array{
+	
+	
+	left: 61%;
+}
+.clb_title{
+	text-align: center;
+	margin-top: 85px;
+	font-size: .7rem;
+	color: #fff;
+	margin-bottom: 45px;
+}
+.clb_t{
+	font-size: .7rem;
+	color: #fff;
+	margin-left: 10%;
+}
+.clb_t img{
+	vertical-align: middle;
+	margin-right: 18px;
+}

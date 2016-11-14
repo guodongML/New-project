@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>trinity</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="body"class="bob">
+	
+
+	<div class="logo">
+		<div class="logo_a">
+			<img src="images/logo.png" alt=""id="img" />
+			<span>反馈</span>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="myscourses">
+			<img src="images/icon.png" alt="" /><span><span style="font-size: 0.7rem;">CHD医学基础</span><br />课程类型：点播&nbsp;&nbsp;&nbsp;&nbsp;课时：8课时<br />已完成20%</span><img style="margin-bottom: 9px;margin-left: 40%;" src="images/icons.png" alt="" />
+		</div>	
+			<div class="myscourses">
+			<img src="images/icon.png" alt="" /><span><span style="font-size: 0.7rem;">CHD诊疗基础</span><br />课程类型：直播&nbsp;&nbsp;&nbsp;&nbsp;下次开课时间：2014-1-15 时长：90分钟<br />已完成20%</span><img style="margin-bottom: 9px;margin-left: 7%;" src="images/icons.png" alt="" />
+		</div>	
+			<div class="myscourses">
+			<img src="images/icon.png" alt="" /><span><span style="font-size: 0.7rem;">MDT产品基础</span><br />课程类型：直播&nbsp;&nbsp;&nbsp;&nbsp;课时：8课时<br />已完成20%</span><img style="margin-bottom: 9px;margin-left: 40%;" src="images/icons.png" alt="" />
+		</div>	
+			<div class="myscourses"style="height: 100%;">
+			<img src="images/icon.png" alt="" /><span><span style="font-size: 0.7rem;">MDT产品精进</span><br />课程类型：点播&nbsp;&nbsp;&nbsp;&nbsp;课时：12课时<br />已完成20%</span><img style="margin-bottom: 9px;margin-left: 38%;" src="images/icons.png" alt="" />
+		</div>	
+	</div>
+	
+		<footer class="bottom">
+		<span><img src="images/myexam.png" alt="" /><br />我的考试</span><span><img src="images/myclass.png" alt="" /><br />我的课程</span><span><img src="images/mygrade.png" alt="" /><br />我的评分</span>
+	</footer>
+</div>
+		<div class="cbl">
+			<div class="clb_title">
+				<img src="images/title.png" alt="" /><br />
+				用户1571
+			</div>
+			<div class="clb_t">
+				<img src="images/title1.png" alt="" />在线培训
+			</div>
+			<div class="clb_t"style="margin-top: 37px;">
+				<img src="images/title2.png" alt="" />培训报名
+			</div>
+		</div>
+
+	<script src="js/jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#img").click(function(){
+				
+				var error=$(".cbl").hasClass("arr")
+				
+				if(error){
+					$(".cbl").removeClass('arr');
+					$(".bob").removeClass('array');
+				}
+				else{
+					$(".cbl").addClass('arr');
+					$(".bob").addClass("array")
+				}
+			})
+			
+		})
+	</script>
+	
+</body>
+</html>
