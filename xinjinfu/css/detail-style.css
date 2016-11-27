@@ -1,11 +1,12 @@
 html{font-size: 20px;width: 100%;}
-body{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: relative;}
+body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: relative;}
 .main{
-	width: 1280px;
+	width: 1380px;
 	margin: 0 auto;
 }
 .logo{
 	width: 100%;
+	height: 130px;
 	margin-left: 60px;
 	margin-top: 30px;
 }
@@ -37,10 +38,15 @@ body{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: rela
 	font-size: 1.2rem;
 	line-height: 40px;
 }
+.tbs p{
+	margin-left: 40px;
+	line-height: 40px;
+}
 .left{
 	float: left;
 }
 .left.add{
+
 	margin-left: 58px;
 }
 .right{
@@ -48,6 +54,9 @@ body{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: rela
 	margin-left: 25px;
 }
 .right.add{
+	background-color: #eee;
+	width: 850px;
+	height: 404px;
 	margin-left: 32px;
 	margin-top: 25px;
 }
@@ -94,12 +103,22 @@ body{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: rela
 	line-height: 40px;
 }
 .transport{
+	height: 170px;
+	
+	border-radius: 5px;
+	background-color: #eee;
 	font-size: .9rem;
 	color: #999;
-	height: 150px;
+	
 }
-.point{
+.back{
+	width: 850px;
+}
+.point span{
+	display: inline-block;
 	margin-top: 18px;
+	font-size: .9rem;
+	color: #999;
 }
 .point >img{
 	
@@ -117,10 +136,17 @@ body{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: rela
 	font-size: .6rem;
 	color: #fff;
 }
-.bottom.add{
-	position: absolute;
-	right: 0;
-	bottom: 0;
+.bottoma{
+	margin-top: 30px;
+	width: 100%;
+	height: 58px;
+	background-color: #057cc4;
+	font-size: .6rem;
+	color: #fff;
+}
+.bottoma p{
+	text-align: center;
+	line-height: 58px;
 }
 .bottom p{
 	text-align: center;
@@ -132,6 +158,9 @@ body{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: rela
 .rtst{
 	margin-left: 60px;
 	margin-top: 30px;
+	width: 1163px;
+	height: 471px;
+	background: url(../images/rtst.png)center no-repeat;
 }
 .logo_left{
 
@@ -170,4 +199,69 @@ body{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: rela
 .icona h4{
 	margin-left: 200px;
 	font-size: .9rem;
+}
+.list-left{
+	float: left;
+	width: 850px;
+	height: 498px;
+	background-color: #eee;
+	margin-left: 58px;
+}
+.spare{
+	width: 800px;
+	height: 40px;
+	font-size: .9rem;
+	color: #fff;
+	padding-left: 50px;
+	line-height: 40px;
+	background-color: #057cc4;
+	border-radius: 10px;
+}
+.spare-s{
+	height: 91.6px;
+	width: 100%;
+
+}
+.spare-s p{
+	font-size: .6rem;
+	color: #999;
+	margin-left: 50px;
+	margin-top: 12px;
+}
+
+.spare-s span{
+	font-size: 0.6rem;
+	margin-left: 450px;
+	color: #999;
+}
+.list-right{
+	float: left;
+	background-color: #eee;
+	height: 498px;
+}
+.xwdt{
+	padding-left: 50px;
+	height: 40px;
+	width: 227px;
+	border-radius: 10px;
+	background-color: #057cc4;
+	color: #fff;
+	font-size: .9rem;
+	line-height: 40px;
+}
+
+.spear-d{
+	width: 277px;
+	height: 188px;
+}
+.list-text h2{
+	margin-left: 40px;
+	font-size: .9rem;
+	color: #999;
+
+}
+.list-text p{
+	margin-left: 40px;
+	font-size: .6rem;
+	color: #999;
 }
