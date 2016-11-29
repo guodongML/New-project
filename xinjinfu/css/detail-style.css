@@ -1,16 +1,23 @@
 html{font-size: 20px;width: 100%;}
 body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: relative;}
 .main{
-	width: 1380px;
+	width: 1280px;
 	margin: 0 auto;
+	overflow: hidden;
+}
+.maign{
+	width: 100%;
 }
 .logo{
+
 	width: 100%;
 	height: 130px;
-	margin-left: 60px;
 	margin-top: 30px;
+	border-bottom: 1px solid #999;
+	box-shadow: 10px 10px 20px #999;
 }
 .logo >img{
+
 	vertical-align: middle;
 	margin-right: 5px;
 }
@@ -26,24 +33,39 @@ body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: re
 	line-height: 25px;
 }
 .tbs{
-	width: 850px;
+	padding-left: 40px;
+	width: 810px;
 	height: 40px;
 	background-color: #057cc4;
 	border-radius: 10px;
 	color: #fff;
 	font-size: 1.2rem;
+	line-height: 40px;
 }
 .tbs h3{
 	margin-left: 40px;
 	font-size: 1.2rem;
-	line-height: 40px;
+	
 }
 .tbs p{
 	margin-left: 40px;
 	line-height: 40px;
 }
+.shadow{
+	box-shadow: 10px 10px 20px #999;
+	border-radius: 10px;
+}
 .left{
 	float: left;
+	margin-left: 50px;
+	box-shadow: 10px 10px 10px #999;
+	border-radius: 10px;
+	background-color: #eee;
+
+}
+.leftt{
+	float: left;
+	margin-left: 58px;
 }
 .left.add{
 
@@ -55,18 +77,20 @@ body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: re
 }
 .right.add{
 	background-color: #eee;
+	box-shadow: 10px 10px 10px #999;
+	border-radius: 10px;
 	width: 850px;
 	height: 404px;
-	margin-left: 32px;
+	margin-left: 40px;
 	margin-top: 25px;
 }
+.text{
 
-.text span{
+}
+.text span {
 	display: inline-block;
-	position: absolute;
-	top: 150px;
-	left: 53.5%;
-	margin-left: 40px;
+	
+	margin-left: 524px;
 	font-size: .6rem;
 	color: #999;
 }
@@ -81,29 +105,70 @@ body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: re
 	color: #999;
 
 }
-.news{
-	width: 277px;
-	height: 40px;
+.jieshao{
+	padding-left: 40px;
 	background-color: #057cc4;
+	height: 40px;
+	color: #fff;
+	font-size: .9rem;
 	border-radius: 10px;
 }
-.news span{
+.show{
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px #999;
+	position: relative;
+	float: left;
+	width: 850px;
+	height: 404px;
+	background-color: #eee;
+	margin-top: 35px;
+	margin-left: 58px;
+	margin-bottom: 50px;
+}
+.show img{
+	position: absolute;
+	top: 65px;
+	left: 35px;
 	font-size: .9rem;
 	color: #999;
 }
-.news p{
+.show p{
+	margin-top: 35px;
+	margin-left: 384px;
+	color: #999;
+}
+.show span{
+	display: inline-block;
+	margin-top: 5px;
+	font-size: .6rem;
+
+}
+.news{
+	width: 237px;
+	height: 40px;
+	background-color: #057cc4;
+	border-radius: 10px;
+	padding-left: 40px;
+	color: #fff;
+	line-height: 40px;
+
+}
+.shadow >span{
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 40px;
+	font-size: .9rem;
+	color: #999;
+}
+.shadow p{
 	margin-left: 40px;
 	font-size: .6rem;
 	color: #999;
+	padding-bottom: 10px;
 }
-.news h3{
-	margin-left: 40px;
-	font-size: 1.2rem;
-	color: #fff;
-	line-height: 40px;
-}
+
 .transport{
-	height: 170px;
+	height: 150px;
 	
 	border-radius: 5px;
 	background-color: #eee;
@@ -116,7 +181,7 @@ body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: re
 }
 .point span{
 	display: inline-block;
-	margin-top: 18px;
+	margin-top: 15px;
 	font-size: .9rem;
 	color: #999;
 }
@@ -157,7 +222,7 @@ body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: re
 }
 .rtst{
 	margin-left: 60px;
-	margin-top: 30px;
+	
 	width: 1163px;
 	height: 471px;
 	background: url(../images/rtst.png)center no-repeat;
@@ -201,6 +266,8 @@ body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: re
 	font-size: .9rem;
 }
 .list-left{
+	box-shadow: 10px 10px 10px #999;
+	border-radius: 10px;
 	float: left;
 	width: 850px;
 	height: 498px;
@@ -231,13 +298,15 @@ body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: re
 
 .spare-s span{
 	font-size: 0.6rem;
-	margin-left: 450px;
+	margin-left: 620px;
 	color: #999;
 }
 .list-right{
+
 	float: left;
 	background-color: #eee;
 	height: 498px;
+	margin-left: 30px;
 }
 .xwdt{
 	padding-left: 50px;
@@ -253,6 +322,8 @@ body,p{margin: 0;padding: 0;font-family: "微软雅黑";width: 100%;position: re
 .spear-d{
 	width: 277px;
 	height: 188px;
+	box-shadow: 10px 10px 10px #999;
+	border-radius: 10px;
 }
 .list-text h2{
 	margin-left: 40px;
