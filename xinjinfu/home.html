@@ -4,6 +4,9 @@
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title>home</title>
 	<link rel="stylesheet" href="css/detail-style.css" />
+	<link rel="stylesheet" href="js/swiper-3.4.0.min.css" />
+	<script src="js/swiper-3.4.0.min.js"></script>
+	<script src="js/jquery.js"></script>
 </head>
 <body>
 	
@@ -17,7 +20,19 @@
 		</div>
 	<div class="main">
 		<div class="rtst">
+			<div class="font">
+				<p>多式联运配送</p>
+				<p style="margin-left: 100px;">国际货代</p>
+				<p style="margin-left: 50px;">服务专业化</p>
+			</div>
 			
+			<div class="swiper-container">
+ 	 			<div class="swiper-wrapper">
+  	 				<div class="swiper-slide"><img src="images/rtst.png" alt="" /></div>
+   	 				<div class="swiper-slide"><img src="images/rtst1.png" alt="" /></div>
+   	 				<div class="swiper-slide"><img src="images/rtst2.png" alt="" /></div>
+  				</div>
+			</div>
 		</div>
 		<div class="leftt" style="margin-top: 24px;">
 			<div class="shadow">
@@ -118,5 +133,12 @@
 	<div class="bottoma">	
 		<p>Copyright © 2015 CellBioMedGroup.com All rights reserved. 联系我们</p>
 	</div>
+	<script> 
+		var mySwiper = new Swiper('.swiper-container',{
+		loop:true,
+		autoplay : 2000,
+		autoplayDisableOnInteraction :true,
+	})
+</script>
 </body>
 </html>
