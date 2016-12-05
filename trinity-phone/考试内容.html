@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<title>my exam</title>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div id="body"class="bob">
+	
+
+	<div class="logo">
+		<div class="logo_a">
+			<img src="images/logo.png" alt=""id="img" />
+			<span>我的考试</span>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="spare">
+			<div class="sparea">
+				<img src="images/icon2.png" alt="" />
+			</div>
+			<div class="spareb" style="margin-top: 5px;">
+				<span>Level&nbsp;1考试<br /><span style="font-size: .45rem;">类型：练习&nbsp;&nbsp; 题目数：10<br/>状态：<span style="color: #ef3434;">未完成</span>&nbsp;&nbsp;分数：--</span></span>
+			</div>
+			<img src="images/icons.png" alt="" />
+			
+		</div>
+		<div class="spare">
+			<div class="sparea">
+				<img src="images/icon2.png" alt="" />
+			</div>
+			<div class="spareb" style="margin-top: 5px;">
+				<span>Level&nbsp;1考试<br /><span style="font-size: .45rem;">类型：练习&nbsp;&nbsp; 题目数：12<br/>状态：<span style="color: #76cf8d;">已完成</span>&nbsp;&nbsp;分数：<span style="color: #76cf8d;">100</span></span></span>
+			</div>
+			<img src="images/icons.png" alt="" />
+			
+		</div>			
+		<div class="spare">
+			<div class="sparea">
+				<img src="images/icon2.png" alt="" />
+			</div>
+			<div class="spareb" style="margin-top: 5px;">
+				<span>Level&nbsp;1考试<br /><span style="font-size: .45rem;">类型：练习&nbsp;&nbsp; 题目数：8<br/>状态：<span style="color: #ef3434;">未完成</span>&nbsp;&nbsp;分数：--</span></span>
+			</div>
+			<img src="images/icons.png" alt="" />
+			
+		</div>						
+	</div>	
+	<footer class="bottom">
+		<span><img src="images/myexam.png" alt="" /><br />我的考试</span><span><img src="images/myclass.png"alt	="" /><br />我的课程</span><span><img src="images/mygrade.png" alt="" /><br />我的评分</spa>
+	</footer>
+</div>
+		<div class="cbl">
+			<div class="clb_title">
+				<img src="images/title.png" alt="" /><br />
+				用户1571
+			</div>
+			<div class="clb_t">
+				<img src="images/title1.png" alt="" />在线培训
+			</div>
+			<div class="clb_t"style="margin-top: 37px;">
+				<img src="images/title2.png" alt="" />培训报名
+			</div>
+		</div>
+
+	<script src="js/jquery.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#img").click(function(){
+				
+				var error=$(".cbl").hasClass("arr")
+				
+				if(error){
+					$(".cbl").removeClass('arr');
+					$(".bob").removeClass('array');
+				}
+				else{
+					$(".cbl").addClass('arr');
+					$(".bob").addClass("array")
+				}
+			})
+			
+		})
+	</script>
+	
+</body>
+</html>

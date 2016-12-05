@@ -65,6 +65,7 @@ body{
 .myscourses >img{
 	margin-left: 5.2%;
 	padding-bottom: 5px;
+
 }
 .myscourses> span{
 	margin-top: 5px;
@@ -117,4 +118,195 @@ body{
 .clb_t img{
 	vertical-align: middle;
 	margin-right: 18px;
+}
+.spare{
+	position: relative;
+	width:100%;
+	height: 56px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+
+.spareb> span{
+	display: inline-block;
+	margin-top: px;
+	color: #4d4d4d;
+	font-size: 0.7rem;
+}
+.spareb{
+	float: left;
+	margin-top: 15px;
+	margin-left: 6.25%;
+}
+.sparea{
+	float: left;
+	margin-top: 13px;
+	margin-left: 4%;
+	
+
+}
+.spare >img{
+	position: absolute;
+	top: 20px;
+	right: 4.6%;
+}
+.btn{
+	margin-top: 1.25rem;
+	margin-left: 2rem;
+	width: 5.85rem;
+	height: .7rem;
+	border:1px solid #5b7da3;
+	border-radius: 7px;
+
+}
+.plan{
+	margin-top: 0.2rem;
+	background-color: #fff;
+	width: 100%;
+	height: 3.75rem;
+}
+.btn span{
+	display: inline-block;
+	width: 50%;
+	background-color: #355f8d;
+	height: 0.75rem;
+	margin-left: 50%;
+	border-radius: 0 0.35rem 0.35rem 0;
+}
+.time span{
+	margin-left: 1.25rem;
+}
+.float{
+	float: left;
+	width: 50%;
+}
+.time{
+	margin-top: 0.25rem;
+	font-size: .71rem;
+	color: #333;
+	margin-left: 2.1rem;
+}
+.continue{
+	position: relative;
+	margin-top: 1rem;
+	margin-left: 2.25rem;
+	float: left;
+	width: 4.9rem;
+	height: 1.7rem;
+	background-color: #355f8d;
+	color: #fff;
+	font-size: .71rem;
+	border-radius: 0.25rem;
+}
+.continue span{
+	position: absolute;
+	display: inline-block;
+	top: 0.25rem;
+	left: 1.5rem;
+
+}
+.continue img{
+	margin-left: 0.55rem;
+	margin-top: 0.25rem;
+	vertical-align: middle;
+	
+}
+.clock{
+	position: relative;
+	width: 100%;
+	height: 1.65rem;
+	margin-top: 0.4rem;
+	background-color: #fff;
+	color: #333;
+	font-size: .75rem;
+}
+.clock img{
+	vertical-align: middle;
+	margin-right: 0.25rem;
+}
+
+.clock-a{
+	float: left;
+	height: 1.65rem;
+	line-height: 1.65rem;
+	margin-left: 2.1rem;
+}
+.clock-b{
+	float: left;
+	margin-left: 5.5rem;
+	line-height: 1.65rem;
+}
+.topic{
+	width: 100%;
+	margin-top: 0.4rem;
+	background-color: #fff;
+	font-size: .71rem;
+	color: #444;
+	padding-top: 2rem;
+}
+.topic h3{
+	font-size: .71rem;
+	color: #444;
+	margin-left: 2rem;
+	margin-bottom: 1rem;
+
+}
+.aa{
+	float: left;
+	margin-left: 2rem;
+	width: 40px;
+	height: 23px;
+	border-radius: 10px;
+	border:2px solid #ccc;
+	position: relative;
+}
+.bb{
+	position: absolute;
+	top: 0;
+	left: -2px;
+	background-color: #fff;
+	width: 20px;
+	height: 21px;
+	border-radius: 10px;
+	border:2px solid #ccc;
+	transition:all 200ms;
+}
+.aa.ab{
+	background-color: #00ae9d;
+}
+.bb.ba{
+	position: absolute;
+	left: 20px;
+	top: 0;
+}
+.option{
+	float: left;
+	margin-left: .75rem;
+	margin-top: .1rem;
+	margin-bottom: 1.1rem;
+}
+.intro{
+	color: #4d4d4d;
+	margin:0 auto;
+	width: 12rem;
+}
+.intro h3{
+	font-size: .71rem;
+	text-align: center;
+}
+.intro p{
+	font-size: .5rem;
+
+}
+.hh{
+	font-size: .71rem;
+	text-align: center;
+	color: #4d4d4d;
+}
+.main>p{
+	margin-top: 2rem;
+	width: 12rem;
+	margin-left: 3rem;
+	font-size: .5rem;
+	color: #4d4d4d;
 }
