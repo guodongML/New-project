@@ -2,6 +2,21 @@ html{
 	font-size: 20px;
 	height: 100%;
 }
+@media only screen and (min-width: 340px){
+	html{
+		font-size: 24px;
+	}
+}
+@media only screen and (min-width: 360px){
+	html{
+		font-size: 28px;
+	}
+}
+@media only screen and (min-width: 380px){
+	html{
+		font-size: 32 px;
+	}
+}
 body{
 	background-color: #f0f0f0;
 	min-height: 100%;
